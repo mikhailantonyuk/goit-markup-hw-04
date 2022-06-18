@@ -107,10 +107,28 @@ img{display: block;}
     letter-spacing: 0.03em;
     color: var(--header-color);
   }
+  .header-mail-link{
+    display: block;
+    width: 16px;
+    height: 12px;
+    background-color: tomato;
+    margin-right: 10px;}
+    .header-tel-link{
+        display: block;
+        width: 10px;
+        height: 16px;
+        background-color: tomato;
+        margin-right: 10px;
+    }
+
   /*stilization main*/
 
   /*-----Hero----*/
-.hero-pretitle {background-color:var(--hero-main-color);
+.hero-pretitle {
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../image/bghero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -148,6 +166,29 @@ border-radius: 4px;
 }
 
 /*---Advantage---*/
+.advantage-icon-container{
+    margin-bottom: 30px;
+}
+.advantage-icon-list{
+    display: flex;
+    justify-content: center;
+}
+.advantage-icon-item{
+    width: 270px;
+    height: 120px;
+    margin-left: 30px;
+}
+.advantage-icon-item:first-child{
+    margin-left: 0;
+}
+.advantage-icon-link{
+    display: block;
+    box-sizing: border-box;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;}
+
 .advantage{
 padding-top: 94px;
 padding-bottom: 94px;
@@ -209,10 +250,28 @@ letter-spacing: 0.03em;
 }
 .team-list{
     display: flex;
-    margin-left: -30px;
-    
+    margin-left: -30px; 
 }
-
+.master-soc-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+.master-soc-item{
+    width: 44px;
+    height: 44px;
+    margin-left: 4px;
+}
+.master-soc-item:first-child{
+    margin-left: 0;
+}
+.soc-link{
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: tomato;
+}
 .team-card{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -253,6 +312,41 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--header-tel-color);
 }
+/*---Clients---*/
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.clients-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+    margin-bottom: 50px;
+    text-align: center
+}
+.clients-list{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.clients-item{
+    width: 170px;
+    height: 92px;
+    margin-left: 30px;
+}
+.clients-item:first-child{
+    margin-left: 0;
+}
+.clients-link{
+    display: block;
+    box-sizing: border-box;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
 /*-----Portfolio--*/
 
 .portfolio-btn-container{
@@ -277,6 +371,11 @@ color: var(--header-tel-color);
 }
 .portfolio-btn-title:not(:first-child){
 margin-left: 8px;
+}
+.portfolio-btn-title:hover, .portfolio-btn-title:focus{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    
+    border-radius: 4px;
 }
 
 .portfolio-btn-item{
@@ -304,6 +403,8 @@ align-items: center;
 .portfolio-btn-item:hover, .portfolio-btn-item:focus{
     color: #FFFFFF;
     background-color: var(--accent-color);
+    border:1px solid var(--accent-color);
+   
 } 
 .portfolio-item-title{
     font-weight: 700;
@@ -337,6 +438,9 @@ align-items: center;
     box-sizing: border-box;
     border: 1px solid #EEEEEE;
 }
+.portfolio-list-item:hover, .portfolio-list-item:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 /*-------Footer*/
 .main-footer{
     background-color:#2F303A;
@@ -345,7 +449,19 @@ align-items: center;
     padding-left: 15px;
     padding-right: 15px;
 }
+.footer-content{
+    display: flex;
+}
+.footer-logo-container{
+    display: block;
+}
+.footer-soc-section{
+    display: block;
+    margin-left: 70px;
+    padding-top: 20px;
+}
 .footer-contact-section{
+    display: block;
     margin-top: 20px;
 }
 .footer-logo-left{
@@ -396,4 +512,35 @@ color: rgba(255, 255, 255, 0.6);
 }
 .footer-mail:focus, .footer-mail:hover{
     color: var(--main-text-color);
+}
+
+.footer-title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.footer-soc-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+.footer-soc-item{
+    width: 44px;
+    height: 44px;
+    margin-left: 4px;
+}
+.footer-soc-item:first-child{
+    margin-left: 0;
+}
+.footer-soc-link{
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: tomato;
 }
