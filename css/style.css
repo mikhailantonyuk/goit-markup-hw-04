@@ -355,7 +355,7 @@ color: var(--header-tel-color);
 }
 .clients-link{
     display: flex;
-    display: block;
+
     box-sizing: border-box;
     width: 170px;
     height: 92px;
