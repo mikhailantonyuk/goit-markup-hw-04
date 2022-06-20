@@ -275,6 +275,9 @@ letter-spacing: 0.03em;
 .master-soc-item:first-child{
     margin-left: 0;
 }
+.master-soc-icon{
+    fill: #AFB1B8;
+}
 .soc-link{
     display: block;
     display: flex;
