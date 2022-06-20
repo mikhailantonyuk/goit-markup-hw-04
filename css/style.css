@@ -556,7 +556,6 @@ color: #FFFFFF;
     margin-left: 0;
 }
 .footer-soc-link{
-    
     display: flex;
     width: 44px;
     height: 44px;
@@ -565,4 +564,7 @@ color: #FFFFFF;
     justify-content: center;
     align-content: center;
     align-items: center;
+}
+.footer-soc.icon{
+    fill:  #FFFFFF;
 }
