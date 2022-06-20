@@ -55,8 +55,10 @@ img{display: block;}
       margin-left: auto;
       display: flex;
   }
-  .header-mail:not(:last-child){margin-right: 50px;
-}
+  .header-mail
+  {margin-right: 50px;
+display: block;}
+.header-tel{display: block;}
   .header-item:not(:last-child){margin-right: 50px;}
   
   .header-logo{margin-right: 93px;}
