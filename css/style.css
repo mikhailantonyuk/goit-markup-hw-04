@@ -575,10 +575,16 @@ color: #FFFFFF;
     width: 44px;
     height: 44px;
     border-radius: 22px;
-    background-color: tomato;
+    background-color: rgba(255, 255, 255, 0.1);
     justify-content: center;
     align-content: center;
     align-items: center;
+}
+.footer-soc-link:hover, .footer-soc-link:focus{
+    background-color: #2196F3;
+}
+.footer-soc-link:hover .footer-soc-icon, .footer-soc-link:focus .footer-soc-link{
+    fill: #FFFFFF;
 }
 .footer-soc.icon{
     fill:  #FFFFFF;
