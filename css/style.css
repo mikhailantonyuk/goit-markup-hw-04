@@ -108,8 +108,7 @@ img{display: block;}
     color: var(--header-color);
   }
  .header-icon{
-    fill: #757575;
-    background-color: #188CE8;
+    fill: currentColor;
  }
 
   /*stilization main*/
