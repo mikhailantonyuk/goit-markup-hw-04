@@ -292,7 +292,7 @@ letter-spacing: 0.03em;
 .soc-link:hover, .soc-link:focus{
     background-color: #2196F3;
 }
-.soc-link:hover .soc-link, .soc-link:focus .soc-link{
+.soc-link:hover .master-soc-icon, .soc-link:focus .master-soc-icon{
     fill: #FFFFFF;
 }
 .team-card{
