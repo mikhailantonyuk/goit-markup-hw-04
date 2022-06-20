@@ -109,6 +109,7 @@ img{display: block;}
   }
  .header-icon{
     fill: currentColor;
+    margin-right: 10px;
  }
 
   /*stilization main*/
