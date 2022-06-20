@@ -354,12 +354,15 @@ color: var(--header-tel-color);
     margin-left: 0;
 }
 .clients-link{
+    display: flex;
     display: block;
     box-sizing: border-box;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    align-content: center;
+    justify-content: center;
 }
 /*-----Portfolio--*/
 
