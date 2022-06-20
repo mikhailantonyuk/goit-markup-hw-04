@@ -365,7 +365,6 @@ color: var(--header-tel-color);
 }
 .clients-link{
     display: flex;
-
     box-sizing: border-box;
     width: 170px;
     height: 92px;
@@ -374,6 +373,12 @@ color: var(--header-tel-color);
     align-content: center;
     justify-content: center;
     align-items: center;
+}
+.clients-link:hover, .clients-link:focus{
+    border: 1px solid #2196F3
+}
+.clients-link:hover .client-soc-icon{
+    fill: #2196F3;
 }
 /*-----Portfolio--*/
 
