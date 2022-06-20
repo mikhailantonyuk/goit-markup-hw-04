@@ -91,7 +91,6 @@ img{display: block;}
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--header-tel-color);
-    display: block;
   }
   .header-logo-left{
     font-family: 'Raleway';
@@ -112,7 +111,6 @@ img{display: block;}
  .header-icon{
     fill: currentColor;
     margin-right: 10px;
-    display: block;
  }
 
   /*stilization main*/
