@@ -54,6 +54,7 @@ img{display: block;}
   .header-contact{
       margin-left: auto;
       display: flex;
+      align-items: baseline;
   }
   .header-mail:not(:last-child){margin-right: 50px;
 }
@@ -110,6 +111,7 @@ img{display: block;}
  .header-icon{
     fill: currentColor;
     margin-right: 10px;
+    display: block;
  }
 
   /*stilization main*/
