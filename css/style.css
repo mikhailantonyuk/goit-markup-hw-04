@@ -182,12 +182,16 @@ border-radius: 4px;
     margin-left: 0;
 }
 .advantage-icon-link{
-    display: block;
+    display: flex;
     box-sizing: border-box;
     width: 270px;
     height: 120px;
     background: #F5F4FA;
-    border-radius: 4px;}
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+
+}
 .advantage-icon{
     display: block;
     width: 65.32px;
