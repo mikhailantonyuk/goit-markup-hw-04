@@ -373,12 +373,16 @@ color: var(--header-tel-color);
     align-content: center;
     justify-content: center;
     align-items: center;
+    border: 1px solid #AFB1B8;
 }
 .clients-link:hover, .clients-link:focus{
     border: 1px solid #2196F3
 }
-.clients-link:hover .client-soc-icon{
+.clients-link:hover .client-soc-icon, .clients-link:focus .client-soc-icon{
     fill: #2196F3;
+}
+.client-soc-icon{
+    fill: #AFB1B8;
 }
 /*-----Portfolio--*/
 
