@@ -278,9 +278,7 @@ letter-spacing: 0.03em;
 .master-soc-icon{
     fill: #AFB1B8;
 }
-.master-soc-icon:hover, .master-soc-icon:focus{
-    fill: #FFFFFF;
-}
+
 .soc-link{
     display: block;
     display: flex;
@@ -293,6 +291,9 @@ letter-spacing: 0.03em;
 }
 .soc-link:hover, .soc-link:focus{
     background-color: #2196F3;
+}
+.soc-link:hover .soc-link, .soc-link:focus .soc-link{
+    fill: #FFFFFF;
 }
 .team-card{
     padding-top: 30px;
