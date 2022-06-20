@@ -261,6 +261,7 @@ letter-spacing: 0.03em;
     display: flex;
     margin-left: -30px; 
 }
+
 .master-soc-list{
     display: flex;
     justify-content: center;
@@ -276,6 +277,9 @@ letter-spacing: 0.03em;
 }
 .soc-link{
     display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 22px;
@@ -321,6 +325,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--header-tel-color);
 }
+
 /*---Clients---*/
 .clients{
     padding-top: 94px;
