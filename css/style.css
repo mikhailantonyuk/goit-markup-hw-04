@@ -55,6 +55,7 @@ img{display: block;}
       margin-left: auto;
       display: flex;
       align-items: baseline;
+      height: 16px;
   }
   .header-mail
   {margin-right: 50px;
